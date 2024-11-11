@@ -124,7 +124,7 @@ Make the following settings changes:
       - Key Mappings
         - Presets... : `Natural text editing`
           - This allows to jump words in cli using `CMD`
-          - You can still go to next/prev tab using `CMD + Shift + arrows`
+          - You can still go to next/prev tab using `CMD + Shift + [`
 
 Prevent login message every time you open a terminal by creating a `.hushlogin` file at your home dir:
 
@@ -241,7 +241,7 @@ Set the minimal settings.
 ```json
 {
     "editor.fontSize": 16,
-    "editor.lineHeight": 1.6,
+    "editor.lineHeight": 1.7,
     "editor.fontFamily": "'CaskaydiaCove Nerd Font', Menlo, Monaco, 'Courier New', monospace",
 }
 ```
