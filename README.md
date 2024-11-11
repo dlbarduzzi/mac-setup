@@ -59,16 +59,84 @@ Install `homebrew` by following the steps at [brew.sh](https://brew.sh/).
 
 Install `iterm2` terminal.
 
-
 ```sh
 brew install --cask iterm2
+```
+
+Install font dependency.
+
+```sh
+brew search nerd-font
+brew search nerd-font | grep caskaydia 
+brew install font-caskaydia-cove-nerd-font
+```
+
+Set Window arrangement when opening terminal:
+
+- Open "Window" on very top bar
+    - click on "Save window arrangement"
+    - open "Arrangements" in iterm profile
+    - choose arrangement you have just saved
+    - instructions below will show how to use this setting
+
+Make the following settings changes:
+
+- Settings
+  - General
+    - Startup
+      - Window restoration policy : `Open Default Window Arrangement`
+      - Uncheck everything else
+    - Closing
+      - Quit when all windows are closed : `check`
+      - Uncheck everything else
+  - Appearance
+    - General
+      - Theme : `Minimal`
+    - Windows
+      - Hide scrollbars : `check`
+      - Show line under title bar when the tab bar is not visible : `check`
+      - Uncheck everything else
+    - Tabs
+      - Show tab bar even when there is only one tab : `check`
+      - Show tab numbers : `uncheck`
+      - Stretch tabs to fill bar : `uncheck`
+  - Profiles
+    - General
+      - Window Directory : `Reuse previous session's directory`
+    - Colors
+      - Use different colors for light mode and dark mode : `uncheck`
+      - Color Presets
+        - Download `cyberdream.itermcolors` file from this repo and set/import as your color theme
+      - Minimum Contrast
+        - If planning on using transparent background, might need to play with this value i.e. `50`
+    - Text
+      - Font : `CaskaydiaCove Nerd Font Mono`
+      - Font weight : `Regular`
+      - Font size: `17`
+      - Line height (n/n) : `127`
+    - Window
+      - Add background image
+      - Blending : `20 (play with value based on backgound image)`
+      - Use transparency : `check`
+    - Terminal
+      - Show mark indicators : `uncheck`
+    - Keys
+      - Key Mappings
+        - Presets... : `Natural text editing`
+          - This allows to jump words in cli using `CMD`
+          - You can still go to next/prev tab using `CMD + Shift + arrows`
+
+Prevent login message every time you open a terminal by creating a `.hushlogin` file at your home dir:
+
+```sh
+touch ~/.hushlogin
 ```
 
 ## Oh My Zsh
 
 Install `ohmyzsh` by following the steps at [ohmyzsh](https://ohmyz.sh/).
 
-### Git
+##   Git
 
 1. Instal `git` cli.
 
