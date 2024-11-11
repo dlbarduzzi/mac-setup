@@ -67,3 +67,51 @@ brew install --cask iterm2
 ## Oh My Zsh
 
 Install `ohmyzsh` by following the steps at [ohmyzsh](https://ohmyz.sh/).
+
+### Git
+
+1. Instal `git` cli.
+
+```sh
+brew install git
+```
+
+2. Set configs.
+
+```sh
+git config --global user.name "John Doe"
+git config --global user.email "john.doe@email.com"
+```
+
+3. Setup SSH keys.
+
+```sh
+# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+ssh-keygen -t ed25519 -C "john.doe@email.com"
+eval "$(ssh-agent -s)"
+chmod 600 __PUBLIC_KEY__
+```
+
+4. Add the following content to your `~/.ssh/config` file:
+
+```sh
+touch ~/.ssh/config
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+
+5. Add ssh key to use apple keychain.
+
+```sh
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+```
+
+6. Add public SSH key to Github by following steps in [adding-a-new-ssh-key-to-your-github-account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+
+```sh
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+
+**NOTE** if you get a prompt for `username` and `password` when running `git` commands, don't enter your password, but the token you have created some time in the past. Otherwise, create a new token.
