@@ -46,3 +46,24 @@ Open `Finder` in your docking station and make the following changes:
   - Set `as List`
   - Toggle `Show Status Bar`
   - Toggle `Show Path Bar`
+
+## Google Chrome
+
+Install and set `Google Chrome` as the default browser.
+
+## Homebrew
+
+Install `homebrew` by following the steps at [brew.sh](https://brew.sh/).
+
+## Terminal
+
+Install `iterm2` terminal.
+
+
+```sh
+brew install --cask iterm2
+```
+
+## Oh My Zsh
+
+Install `ohmyzsh` by following the steps at [ohmyzsh](https://ohmyz.sh/).
