@@ -132,9 +132,51 @@ Prevent login message every time you open a terminal by creating a `.hushlogin` 
 touch ~/.hushlogin
 ```
 
+# zsh
+
+Install plugins.
+
+```sh
+brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
+```
+
+Activate plugins by adding the following to `~/.zshrc` file:
+
+```sh
+# Activate syntax-highlighting.
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Active autosuggestions.
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
+
 ## Oh My Zsh
 
-Install `ohmyzsh` by following the steps at [ohmyzsh](https://ohmyz.sh/).
+1. Install `ohmyzsh` by following the steps at [ohmyzsh](https://ohmyz.sh/).
+
+2. Create the following file theme under `~/.oh-my-zsh/themes/dylan.zsh-theme` file:
+
+```sh
+ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}!"
+ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[green]%}?"
+ZSH_THEME_GIT_PROMPT_CLEAN=""
+
+PROMPT='
+%{$fg[green]%}%~%{$reset_color%}$(git_prompt_info) %{$reset_color%}
+$ '%
+```
+
+3. Set the following lines in your `~/.zshrc` file:
+
+```sh
+# Set name of the theme to load.
+ZSH_THEME="dylan"
+```
+
+4. Source file `source ~/.zshrc`.
 
 ##   Git
 
@@ -183,3 +225,23 @@ pbcopy < ~/.ssh/id_ed25519.pub
 ```
 
 **NOTE** if you get a prompt for `username` and `password` when running `git` commands, don't enter your password, but the token you have created some time in the past. Otherwise, create a new token.
+
+### VSCode
+
+Install `vscode` text editor.
+
+```sh
+brew install --cask visual-studio-code
+```
+
+Add `code` command to your path by clicking `Cmd + Shift + p` and type `shell command: install code command to path`.
+
+Set the minimal settings.
+
+```json
+{
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.6,
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+}
+```
