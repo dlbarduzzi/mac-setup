@@ -226,7 +226,7 @@ pbcopy < ~/.ssh/id_ed25519.pub
 
 **NOTE** if you get a prompt for `username` and `password` when running `git` commands, don't enter your password, but the token you have created some time in the past. Otherwise, create a new token.
 
-### VSCode
+## VSCode
 
 Install `vscode` text editor.
 
@@ -244,4 +244,24 @@ Set the minimal settings.
     "editor.lineHeight": 1.7,
     "editor.fontFamily": "'CaskaydiaCove Nerd Font', Menlo, Monaco, 'Courier New', monospace",
 }
+```
+
+## NodeJS
+
+Check docs at [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) for installation steps.
+
+Helpful commands.
+
+```sh
+# Install node latest version
+nvm install __VERSION__
+
+# Check node install
+node -v
+
+# Check npm install
+npm -v
+
+# If needing to upgrade npm, run latest
+npm install -g npm
 ```
