@@ -246,7 +246,7 @@ Set the minimal settings.
 }
 ```
 
-## NodeJS
+## NodeJS Install
 
 Check docs at [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) for installation steps.
 
@@ -265,3 +265,7 @@ npm -v
 # If needing to upgrade npm, run latest
 npm install -g npm
 ```
+
+## Go Install
+
+Follow steps at [go.dev](https://go.dev/).
