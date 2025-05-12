@@ -1,5 +1,14 @@
 # mac-setup
 
+## Homebrew
+
+- Install [brew](https://brew.sh/) package manager.
+- Install packages.
+
+```sh
+cat packages.txt | xargs -L1 brew install
+```
+
 ## NodeJS
 
 - Install [nvm](https://github.com/nvm-sh/nvm) for managing node.

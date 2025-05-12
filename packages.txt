@@ -1,0 +1,12 @@
+go
+gofumpt
+golangci-lint
+iterm2 --cask
+podman
+telnet
+visual-studio-code
+wget
+zsh-autosuggestions
+zsh-syntax-highlighting
+spotify --cask
+font-caskaydia-cove-nerd-font --cask
