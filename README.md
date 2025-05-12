@@ -65,6 +65,19 @@
 
 - Install Google Chrome browser.
 
+## Raycast
+
+- Install [raycast](https://www.raycast.com/) by following prompt/installation steps.
+- Replace Spotlight with Raycast
+  - Open mac `System Settings...`
+    - Keyboard
+      - Keyboard Shortcuts…
+        - Spotlight
+          - Show Spotlight search
+            - Unchecked
+- Open raycast `Settings`
+  - Replace HotKey with “CMD Space”
+
 ## Homebrew
 
 - Install [brew](https://brew.sh/) package manager.
@@ -73,6 +86,60 @@
 ```sh
 cat packages.txt | xargs -L1 brew install
 ```
+
+## iTerm2 Configs
+
+iTerm2 should already be installed as part of `brew` packages installation.
+
+- Settings
+  - General
+    - Startup
+      - Window restoration policy
+        - Open Default Window Arrangement
+    - Closing
+      - Quit when all windows are closed
+        - Checked
+      - Confirm closing multiple sessions
+        - Unchecked
+      - Confirm "Quit iterm2"
+        - Unchecked
+      - Disable all confirmations on system shutdown…
+        - Unchecked
+    - Window
+      - Adjust window when changing font size
+        - Unchecked
+  - Appearance
+    - General
+      - Theme
+        - Minimal
+    - Windows
+      - Title Bar
+        - Show window number in title bar
+          - Unchecked
+        - Aesthetics
+          - Hide scrollbars
+            - Checked
+  - Profiles
+    - General
+      - Initial directory
+        - Reuse previous session’s directory
+    - Text
+      - Font
+        - CaskaydiaCove Nerd Font Mono
+        - Regular
+        - Size 17
+        - Line height 116
+    - Terminal
+      - Shell Integration
+        - Show mark indicators
+          - Unchecked
+    - Keys
+      - Key Bindings
+        - Presets…
+          - Natural Text Editing (if prompt to delete previous ones, select yes)
+- Window `top bar`
+  - Arrangements
+    - Save Window Arrangement `adjust window size first`
 
 ## NodeJS
 
