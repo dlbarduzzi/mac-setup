@@ -15,6 +15,16 @@ node -v
 # Install pnpm (not required / if using pnpm).
 npm install -g pnpm
 
-# Check pnpm install
+# Check pnpm install.
 pnpm -v
 ```
+
+## VSCode
+
+- Install extensions.
+
+```sh
+cat vscode/extensions.txt | xargs -L1 code --install-extension
+```
+
+- Update settings by copying [settings.json](./vscode/settings.json) into VSCode settings.

@@ -1,0 +1,7 @@
+bradlc.vscode-tailwindcss
+dbaeumer.vscode-eslint
+hashicorp.terraform-2.34.3
+pranjalkumar.minimal-kiwi
+ritwickdey.liveserver
+streetsidesoftware.code-spell-checker
+wayou.vscode-todo-highlight

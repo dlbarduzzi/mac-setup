@@ -1,0 +1,50 @@
+{
+    "workbench.colorTheme": "Minimal Kiwi",
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 17,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 1.8,
+    "editor.linkedEditing": true,
+    "editor.minimap.autohide": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "files.associations": {
+        "*.mdx": "markdown"
+    },
+    "files.insertFinalNewline": true,
+    "go.formatTool": "gofumpt",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[go]": {
+        "editor.tabSize": 4,
+    },
+    "[go.mod]": {
+        "editor.tabSize": 4,
+    },
+    "[tf]": {
+        "editor.tabSize": 2
+    },
+    "[terraform]": {
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+}
