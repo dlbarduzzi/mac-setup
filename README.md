@@ -1,1 +1,20 @@
 # mac-setup
+
+## NodeJS
+
+- Install [nvm](https://github.com/nvm-sh/nvm) for managing node.
+- Run commands below to install node.
+
+```sh
+# Install latest long term support version of node.
+nvm install --lts
+
+# Check node installation.
+node -v
+
+# Install pnpm (not required / if using pnpm).
+npm install -g pnpm
+
+# Check pnpm install
+pnpm -v
+```
