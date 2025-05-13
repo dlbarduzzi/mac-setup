@@ -4,6 +4,7 @@ golangci-lint
 iterm2 --cask
 podman
 telnet
+tree
 visual-studio-code
 wget
 zsh-autosuggestions
