@@ -124,6 +124,9 @@ iTerm2 should already be installed as part of `brew` packages installation.
       - Initial directory
         - Reuse previous session’s directory
     - Text
+      - Text Rendering
+        - Draw bold text in bold font
+          - Unchecked
       - Font
         - CaskaydiaCove Nerd Font Mono
         - Regular
