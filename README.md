@@ -127,7 +127,7 @@ iTerm2 should already be installed as part of `brew` packages installation.
       - Font
         - CaskaydiaCove Nerd Font Mono
         - Regular
-        - Size 17
+        - Size 18
         - Line height 116
     - Terminal
       - Shell Integration
