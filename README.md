@@ -141,6 +141,49 @@ iTerm2 should already be installed as part of `brew` packages installation.
   - Arrangements
     - Save Window Arrangement `adjust window size first`
 
+## Oh My ZSH
+
+- Install [ohmyzsh](https://ohmyz.sh/).
+- Clean up ~/.zshrc. Initial example content can be found at [.zshrc](./zsh/.zshrc).
+
+## GitHub
+
+- Create new ssh-key by following commands below or instructions from [github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+
+```sh
+ssh-keygen -t ed25519 -C "you@email.com"
+eval "$(ssh-agent -s)"
+chmod 600 __PUBLIC_KEY__
+```
+
+- Add github ssh config to `~/.ssh/config` file.
+
+```
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+
+- Add private key to ssh-agent.
+
+```sh
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+```
+
+- Copy public key to github by following instruction from [adding-a-new-ssh-key-to-your-github-account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+
+
+- Set github user name and email in `~/.gitconfig` file.
+
+```
+[user]
+	name = Dylan Barduzzi
+	email = dlbarduzz@gmail.com
+```
+
+- When running for the first time you might need to use HTTPS to connect to github with a token (not a password) to verify ssh host. Or you can run `ssh-keyscan -H github.com >> ~/.ssh/known_hosts` to allow connectivity.
+
 ## NodeJS
 
 - Install [nvm](https://github.com/nvm-sh/nvm) for managing node.
