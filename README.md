@@ -178,8 +178,8 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 ```
 [user]
-	name = Dylan Barduzzi
-	email = dlbarduzz@gmail.com
+	name = John Doe 
+	email = john.doe@email.com
 ```
 
 - When running for the first time you might need to use HTTPS to connect to github with a token (not a password) to verify ssh host. Or you can run `ssh-keyscan -H github.com >> ~/.ssh/known_hosts` to allow connectivity.
