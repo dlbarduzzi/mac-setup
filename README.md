@@ -123,6 +123,9 @@ iTerm2 should already be installed as part of `brew` packages installation.
     - General
       - Initial directory
         - Reuse previous session’s directory
+    - Colors
+      - Background
+        - 161b1e `This is not required, but in case you want to match nvim/monokai-pro background color theme`
     - Text
       - Text Rendering
         - Draw bold text in bold font
@@ -224,3 +227,5 @@ cat vscode/extensions.txt | xargs -L1 code --install-extension
 ```
 
 - Update settings by copying [settings.json](./vscode/settings.json) into VSCode settings.
+
+**IMPORTANT** The VSCode theme is set to [monokai.pro](https://monokai.pro/). You must enter your license after the settings is applied.
