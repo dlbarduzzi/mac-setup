@@ -1,5 +1,6 @@
 {
-    "workbench.colorTheme": "Minimal Kiwi",
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
     "workbench.tree.enableStickyScroll": false,

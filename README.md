@@ -148,6 +148,15 @@ iTerm2 should already be installed as part of `brew` packages installation.
 
 - Install [ohmyzsh](https://ohmyz.sh/).
 - Clean up ~/.zshrc. Initial example content can be found at [.zshrc](./zsh/.zshrc).
+- Create a `~/.profile` file so you can load any local configs.
+  - This file should not be commited to the repo. 
+
+```sh
+echo "Loading file: $HOME/.profile"
+
+# Aliases.
+alias hello="echo Hello $USER"
+```
 
 ## GitHub
 
