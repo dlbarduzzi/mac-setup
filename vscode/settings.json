@@ -108,19 +108,19 @@
     "[terraform]": {
         "editor.tabSize": 2
     },
-    "[json]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "vscode.json-language-features",
-        "editor.tabSize": 2,
-    },
-    "[jsonc]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "vscode.json-language-features",
-        "editor.tabSize": 2,
-    },
-    "[jsonl]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "vscode.json-language-features",
-        "editor.tabSize": 2,
-    }
+    // "[json]": {
+    //     "editor.formatOnSave": true,
+    //     "editor.defaultFormatter": "vscode.json-language-features",
+    //     "editor.tabSize": 2,
+    // },
+    // "[jsonc]": {
+    //     "editor.formatOnSave": true,
+    //     "editor.defaultFormatter": "vscode.json-language-features",
+    //     "editor.tabSize": 2,
+    // },
+    // "[jsonl]": {
+    //     "editor.formatOnSave": true,
+    //     "editor.defaultFormatter": "vscode.json-language-features",
+    //     "editor.tabSize": 2,
+    // }
 }
