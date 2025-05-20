@@ -1,15 +1,11 @@
 bradlc.vscode-tailwindcss
+charliermarsh.ruff
 dbaeumer.vscode-eslint
 esbenp.prettier-vscode
 golang.go
 hashicorp.terraform
 monokai.theme-monokai-pro-vscode
-ms-python.black-formatter
-ms-python.debugpy-2025.8.0
-ms-python.flake8
-ms-python.isort
 ms-python.python
-ms-python.vscode-pylance
 pranjalkumar.minimal-kiwi
 ritwickdey.liveserver
 streetsidesoftware.code-spell-checker

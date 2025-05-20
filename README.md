@@ -152,7 +152,7 @@ iTerm2 should already be installed as part of `brew` packages installation.
 - Install [ohmyzsh](https://ohmyz.sh/).
 - Clean up ~/.zshrc. Initial example content can be found at [.zshrc](./zsh/.zshrc).
 - Create a `~/.profile` file so you can load any local configs.
-  - This file should not be commited to the repo. 
+  - This file should not be commited to the repo.
 
 ```sh
 echo "Loading file: $HOME/.profile"
@@ -193,7 +193,7 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 ```
 [user]
-	name = John Doe 
+	name = John Doe
 	email = john.doe@email.com
 ```
 
@@ -227,5 +227,6 @@ cat vscode/extensions.txt | xargs -L1 code --install-extension
 ```
 
 - Update settings by copying [settings.json](./vscode/settings.json) into VSCode settings.
+- Check [dlbarduzzi/dotfiles](https://github.com/dlbarduzzi/dotfiles) for any vscode extensions related configs.
 
 **IMPORTANT** The VSCode theme is set to [monokai.pro](https://monokai.pro/). You must enter your license after the settings is applied.

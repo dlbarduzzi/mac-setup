@@ -1,8 +1,8 @@
 {
-    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
-    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
-    "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+    "workbench.editor.enablePreview": false,
     "workbench.tree.enableStickyScroll": false,
     "editor.fontFamily": "'CaskaydiaCove Nerd Font', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 17,
@@ -19,6 +19,7 @@
         "*.mdx": "markdown"
     },
     "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "go.formatTool": "gofumpt",
     "prettier.arrowParens": "avoid",
     "prettier.bracketSpacing": true,
@@ -72,7 +73,7 @@
         "editor.formatOnSaveMode": "file",
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.codeActionsOnSave": {
-            "source.organizeImports": "never",
+            "source.organizeImports": "never"
         }
     },
     "[go]": {
@@ -82,7 +83,7 @@
         "editor.defaultFormatter": "golang.go",
         "editor.codeActionsOnSave": {
             "source.organizeImports": "always"
-        },
+        }
     },
     "[go.mod]": {
         "editor.tabSize": 4,
@@ -97,17 +98,14 @@
         "editor.tabSize": 4,
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "file",
-        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.codeActionsOnSave": {
-            "source.organizeImports": "always"
-        }
+            "source.organizeImports": "always",
+        },
     },
-    "[tf]": {
-        "editor.tabSize": 2
-    },
-    "[terraform]": {
-        "editor.tabSize": 2
-    },
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.typeCheckingMode": "strict",
     // "[json]": {
     //     "editor.formatOnSave": true,
     //     "editor.defaultFormatter": "vscode.json-language-features",

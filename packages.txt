@@ -5,6 +5,7 @@ iterm2 --cask
 podman
 telnet
 tree
+uv
 visual-studio-code
 wget
 zsh-autosuggestions
