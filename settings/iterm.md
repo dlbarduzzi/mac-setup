@@ -1,0 +1,63 @@
+# iTerm2
+
+- Settings
+  - General
+    - Startup
+      - Window restoration policy
+        - Open Default Window Arrangement
+    - Closing
+      - Quit when all windows are closed
+        - Checked
+      - Confirm closing multiple sessions
+        - Unchecked
+      - Confirm "Quit iterm2"
+        - Unchecked
+      - Disable all confirmations on system shutdown…
+        - Unchecked
+    - Window
+      - Adjust window when changing font size
+        - Unchecked
+  - Appearance
+    - General
+      - Theme
+        - Minimal
+    - Windows
+      - Title Bar
+        - Show window number in title bar
+          - Unchecked
+        - Aesthetics
+          - Hide scrollbars
+            - Checked
+  - Profiles
+    - General
+      - Initial directory
+        - Reuse previous session’s directory
+    - Colors
+      - Background
+        - 161b1e `This is not required, but in case you want to match nvim/monokai-pro background color theme`
+    - Text
+      - Text Rendering
+        - Draw bold text in bold font
+          - Unchecked
+      - Font
+        - Option 1:
+          - Monaco
+          - Regular
+          - Size 16
+          - Line height 180
+        - Option 2:
+          - CaskaydiaCove Nerd Font Mono # Must install font first
+          - Regular
+          - Size 18
+          - Line height 120
+    - Terminal
+      - Shell Integration
+        - Show mark indicators
+          - Unchecked
+    - Keys
+      - Key Bindings
+        - Presets…
+          - Natural Text Editing (if prompt to delete previous ones, select yes)
+- Window `top bar`
+  - Arrangements
+    - Save Window Arrangement `adjust window size first`

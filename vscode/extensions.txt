@@ -1,0 +1,7 @@
+charliermarsh.ruff
+dbaeumer.vscode-eslint
+golang.go
+monokai.theme-monokai-pro-vscode
+ritwickdey.liveserver
+streetsidesoftware.code-spell-checker
+wayou.vscode-todo-highlight

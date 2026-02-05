@@ -1,0 +1,131 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+    "workbench.editor.enablePreview": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.fontSize": 17,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 1.8,
+    "editor.fontFamily": "'CaskaydiaCove Nerd Font', Menlo",
+    "editor.formatOnPaste": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.autohide": "mouseover",
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "off",
+    "files.associations": {
+        "*.mdx": "markdown"
+    },
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    // ----------------------------------------------------------------------------------
+    // Go
+    // ----------------------------------------------------------------------------------
+    "[go]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "golang.go",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "[go.mod]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "golang.go",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    // ----------------------------------------------------------------------------------
+    // Python
+    // ----------------------------------------------------------------------------------
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    // ----------------------------------------------------------------------------------
+    // Bash
+    // ----------------------------------------------------------------------------------
+    "[shellscript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    },
+    // ----------------------------------------------------------------------------------
+    // JavaScript
+    // ----------------------------------------------------------------------------------
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "never"
+        }
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "never"
+        }
+    },
+    // ----------------------------------------------------------------------------------
+    // TypeScript
+    // ----------------------------------------------------------------------------------
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "never"
+        }
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "never"
+        }
+    },
+    // ----------------------------------------------------------------------------------
+    // JSON
+    // ----------------------------------------------------------------------------------
+    "[json]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // ----------------------------------------------------------------------------------
+    // YAML
+    // ----------------------------------------------------------------------------------
+    "[yaml]": {
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    }
+}
