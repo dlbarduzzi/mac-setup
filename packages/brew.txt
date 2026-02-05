@@ -1,6 +1,8 @@
 go
 gofumpt
 golangci-lint
+shellcheck
+shfmt
 telnet
 tree
 uv

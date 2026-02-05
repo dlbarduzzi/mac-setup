@@ -63,8 +63,11 @@
     "[shellscript]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
-        "editor.formatOnSaveMode": "file"
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode",
     },
+    "shellcheck.run": "onType",
+    "bashIde.shellcheckPath": "shellcheck",
     // ----------------------------------------------------------------------------------
     // JavaScript
     // ----------------------------------------------------------------------------------

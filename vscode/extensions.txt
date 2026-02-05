@@ -1,7 +1,11 @@
+bradlc.vscode-tailwindcss
 charliermarsh.ruff
 dbaeumer.vscode-eslint
 golang.go
+lumirelle.shell-format-rev
+mads-hartmann.bash-ide-vscode
 monokai.theme-monokai-pro-vscode
 ritwickdey.liveserver
+timonwong.shellcheck
 streetsidesoftware.code-spell-checker
 wayou.vscode-todo-highlight
