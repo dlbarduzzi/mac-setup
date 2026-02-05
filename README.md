@@ -38,6 +38,15 @@ Install [ohmyzsh](https://ohmyz.sh/) by following installation steps.
 - Replace contents from `~/.zshrc` with [.zshrc](./zsh/.zshrc)
 - Create a custom `~/.profile` file so you can add any local custom configs
 
+- Optional: use [dylan.zsh-theme](./zsh/dylan.zsh-theme) as your theme.
+
+```sh
+cp ./zsh/dylan.zsh-theme ~/.oh-my-zsh/themes/
+
+# Update zsh theme inside `~/.zshrc` file.
+ZSH_THEME="dylan"
+```
+
 ## GitHub
 
 Create a new SSH key by following instructions from [github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
