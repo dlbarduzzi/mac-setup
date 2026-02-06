@@ -6,6 +6,7 @@ lumirelle.shell-format-rev
 mads-hartmann.bash-ide-vscode
 monokai.theme-monokai-pro-vscode
 ritwickdey.liveserver
+tamasfe.even-better-toml
 timonwong.shellcheck
 streetsidesoftware.code-spell-checker
 wayou.vscode-todo-highlight

@@ -14,7 +14,7 @@
     "editor.stickyScroll.enabled": false,
     "editor.stickyScroll.scrollWithEditor": false,
     "editor.tabSize": 2,
-    "editor.wordWrap": "off",
+    "editor.wordWrap": "on",
     "files.associations": {
         "*.mdx": "markdown"
     },
